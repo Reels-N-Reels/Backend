@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcrypt"); // This file is not used currently
 
 const comparePasswords = (inputPassword, hashedPassword) => {
   inputPassword = inputPassword.trim();
