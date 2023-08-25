@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "${PGUSER}",
+    "password": "${PGPASSWORD}",
+    "database": "${PGDATABASE}",
+    "host": "${PGHOST}",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "${PGUSER}",
+    "password": "${PGPASSWORD}",
+    "database": "${PGDATABASE}",
+    "host": "${PGHOST}",
+    "dialect": "postgres"
+  }
+}
